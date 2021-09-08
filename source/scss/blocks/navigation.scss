@@ -1,0 +1,135 @@
+.navigation {
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+
+    li {
+        margin: 0;
+        list-style: none; 
+        
+        @media (max-width: 768px) {
+            margin-right: 15px;
+            text-align: center;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+            align-items: center;
+            justify-content: none;
+           }
+    }
+
+    &__item {
+        background-color:  #212031;
+        border-radius: 10px 10px 0px 0px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+
+        @media (max-width: 768px) {
+         background-color: transparent;
+         border-radius: 0px;
+         padding-top: 6px;
+         padding-bottom: 14px;
+        }
+    }
+
+    &__item--box {
+
+        
+    }
+
+    &__link {
+        font-family: Leksa Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $blue;
+        opacity: 0.5;
+        text-decoration: none;
+
+        @media (max-width: 768px) {
+            font-size: 14px;
+            line-height: 14px;
+            opacity: 1;
+           }
+       
+    }
+
+    &__link--box {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        @media (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+           }
+    }
+
+    &__item--bank {
+    }
+
+    &__link--bank {
+        padding-left: 72px;
+        padding-right: 72px;
+
+        @media (max-width: 768px) {
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 15px;
+               }
+    }
+
+    &__item--sets {
+    }
+
+    &__link--sets {
+        padding-left: 58px;
+        padding-right: 58px;
+
+        @media (max-width: 768px) {
+            padding-left: 0px;
+            padding-right: 0px;
+               }
+    }
+
+    &__item--spec {
+
+       
+    }
+
+    &__link--spec {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        @media (max-width: 768px) {
+            
+            padding-left: 0px;
+            padding-right: 0px;
+               }
+    }
+
+    &__item--code {
+}
+
+    &__link--code {
+        padding-left: 41px;
+        padding-right: 41px;
+
+        @media (max-width: 768px) {
+            padding-left: 0px;
+            padding-right: 0px;
+               }
+    }
+}

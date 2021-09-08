@@ -1,0 +1,19 @@
+.main {
+    // background-image: url(../../img/main__bg.png);
+    background-color: #282A42;
+//     background-position: 50%;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+
+     @media (max-width: 768px) {
+        background-color: #181723;
+    }
+}
+
+.main__wrapper {
+    padding-top: 10px;
+
+    @media (max-width: 768px) {
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,220 @@
+.header {
+
+    background-color: rgba(22, 21, 31, 1);
+    background-image: url(../../img/header__bg.png);
+
+    @media (max-width: 768px) {
+        background-image: none;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 3px;
+
+        @media (max-width: 768px) {
+            padding-top: 9px;
+            padding-bottom: 11px;
+        }
+    }
+
+    &__back {
+        display: flex;
+        align-items: center;
+    }
+
+    &__back--btn {
+        margin-right: 26px;
+
+        @media (max-width: 768px) {
+            margin-right: 28px;
+        }
+    }
+
+    &__back--text {
+    font-family: Leksa Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: $white;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__coins {
+        display: flex;
+        align-items: center;
+    }
+
+    &__coins--img {
+        margin-right: 11px;
+
+        @media (max-width: 768px) {
+            width: 30px;
+            height: 30px;
+            margin-right: 2px;
+        }
+    }
+
+    &__price{
+        margin-right: 18px;
+
+        @media (max-width: 768px) {
+            margin-right: 16px;
+        }
+    }
+
+    &__text {
+    font-family: Leksa Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $white;
+
+    }
+
+    &__text--coins {
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__text--mobile {
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+
+    &__name {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $blue;
+
+    }
+
+    &__name--coins {
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__plus {
+
+        @media (max-width: 768px) {
+           width: 20px;
+           height: 23px;
+        }
+    }
+
+    &__plus--coins {
+        margin-right: 67px;
+
+        @media (max-width: 768px) {
+            margin-right: 15px;
+        }
+
+    }
+
+    &__crystals {
+        display: flex;
+        align-items: center;
+    }
+
+    &__crystals--img {
+        margin-right: 10px;
+
+        @media (max-width: 768px) {
+            width: 30px;
+            height: 30px;
+            margin-right: 1px;     }
+    }
+
+    &__description {
+        margin-right: 38px;
+
+        @media (max-width: 768px) {
+            margin-right: 25px;
+        }
+    }
+
+    &__text--crystal {
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__text--mob {
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
+    
+    }
+
+    &__name--crystal {
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__plus--crystal {
+        @media (max-width: 768px) {
+            margin-right: 33px;
+        }
+    }
+
+    &__home {
+        display: flex;
+        align-items: center;
+    }
+
+    &__home--btn {
+        margin-right: 14px;
+
+        @media (max-width: 768px) {
+            margin-right: 0px;
+        }
+    }
+
+    &__home--text {
+    font-family: Leksa Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: $white;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+    }
+}
+
