@@ -32,7 +32,7 @@
 
 .header {
   background-color: #16151f;
-  background-image: url(../../img/header__bg.png);
+  background-image: url(../img/header__bg.png);
 }
 @media (max-width: 576px) {
   .header {
@@ -233,7 +233,7 @@
 
 .main {
   background-color: #16151F;
-  background-image: url(../../img/main__bg.png);
+  background-image: url(../img/main__bg.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -453,7 +453,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../../img/card__bg.png);
+  background-image: url(../img/card__bg.png);
   width: 217px;
   height: 299px;
   border-radius: 20px;
