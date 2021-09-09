@@ -1,19 +1,44 @@
 .main {
-    // background-image: url(../../img/main__bg.png);
     background-color: #282A42;
-//     background-position: 50%;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-
      @media (max-width: 768px) {
         background-color: #181723;
+     }
+    &__wrapper {
+    padding-top: 10px;
+    padding-bottom: 85px;
+
+        @media (max-width: 768px) {
+        padding-top: 0px;
+    }
+    }
+
+
+    &__item {
+        background-color: #212031;
+        padding-top: 24px;
+        border-radius: 0px 0px 10px 10px;
+        
     }
 }
 
-.main__wrapper {
-    padding-top: 10px;
+.item {
 
-    @media (max-width: 768px) {
-        padding-top: 0px;
+    &__wrapper {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #9794C6;
+    }
+    
+    &__title {
+        font-family: Leksa Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
