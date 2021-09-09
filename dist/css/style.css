@@ -239,19 +239,39 @@
     background-color: #181723;
   }
 }
-
 .main__wrapper {
   padding-top: 10px;
+  padding-bottom: 85px;
 }
 @media (max-width: 768px) {
   .main__wrapper {
     padding-top: 0px;
   }
 }
-
-.navigation {
-  margin-bottom: 24px;
+.main__item {
+  background-color: #212031;
+  padding-top: 24px;
+  border-radius: 0px 0px 10px 10px;
 }
+
+.item__wrapper {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #9794C6;
+}
+.item__title {
+  font-family: Leksa Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .navigation {
     display: block;
@@ -384,7 +404,43 @@
   }
 }
 
-.item__title {
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../../img/card__bg.png);
+  width: 217px;
+  height: 299px;
+  border-radius: 20px;
+  background-color: #080115;
+}
+.card__shop {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(217px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(299px, 1fr));
+  gap: 10px;
+  padding-left: 16px;
+}
+.card__price {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card__item {
+  padding-top: 20px;
+}
+.card__btn {
+  padding-bottom: 15px;
+}
+
+.card__wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card__title {
   font-family: Leksa Sans;
   font-size: 30px;
   font-style: normal;
@@ -393,28 +449,5 @@
   letter-spacing: 0em;
   text-align: center;
   color: #FFFFFF;
-  display: flex;
-  justify-content: center;
   margin-bottom: 20px;
-}
-.card {
-  position: relative;
-  width: 217px;
-  height: 299px;
-  background-image: url(../../img/card__bg.png);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.card__price {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.card__iten {
-  padding-top: 20px;
-}
-.card__btn {
-  padding-bottom: 15px;
 }
