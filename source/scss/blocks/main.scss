@@ -1,15 +1,19 @@
 .main {
-    background-color: #282A42;
-     @media (max-width: 768px) {
+    background-color: #16151F;
+    background-image: url(../../img/main__bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (min-width: 3000px) {
+        background-size: cover;
+    }
+
+
+     @media (max-width: 576px) {
         background-color: #181723;
      }
     &__wrapper {
-    padding-top: 10px;
     padding-bottom: 85px;
-
-        @media (max-width: 768px) {
-        padding-top: 0px;
-    }
     }
 
 
@@ -17,7 +21,8 @@
         background-color: #212031;
         padding-top: 24px;
         border-radius: 0px 0px 10px 10px;
-        
+        margin-left: auto;
+        margin-right: auto;        
     }
 }
 
@@ -40,5 +45,9 @@
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
+
+        @media (max-width: 576px) {
+            display: none;
+        }
     }
 }

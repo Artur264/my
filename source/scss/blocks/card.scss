@@ -12,6 +12,11 @@
     height: 299px;
     border-radius: 20px;
     background-color:#080115;
+
+    @media (max-width: 576px) {
+        width: 124px;
+        height: 171px;
+    }
     
     &__shop {
         display: grid;
@@ -19,6 +24,12 @@
         grid-template-rows: repeat(auto-fill, minmax(299px, 1fr));
         gap:10px;
         padding-left: 16px;
+
+        @media (max-width: 576px) {
+        grid-template-columns: repeat(auto-fill, minmax(124px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(171px, 1fr));
+        }    
+        
         
     }
     
@@ -30,13 +41,27 @@
 
     &__item {
         padding-top: 20px;
+
+        @media (max-width: 576px) {
+            width: 87px;
+            height: 48px;
+        }
     }
 
     &__text {
+        @media (max-width: 576px) {
+            width: 83px;
+            height: 47px;
+        }
     }
 
     &__btn {
         padding-bottom: 15px;
+
+        @media (max-width: 576px) {
+            width: 98px;
+            height: 27px;
+        }
     }
 }
 
