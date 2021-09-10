@@ -37,6 +37,7 @@
         padding-bottom: 15px;
         cursor: pointer;
         // border-bottom: 3px solid #323145;
+        
 
         @media (max-width: 576px) {
          background-color: transparent;
@@ -53,9 +54,8 @@
         border-image: linear-gradient(90deg, #F52CBF 0%, #FF7C46 100%);
         border-image-slice: 1;
         
-        @media (max-width: 576px) {
-            
-           }
+        
+
     }
 
     &__link {

@@ -22,10 +22,18 @@
     &__back {
         display: flex;
         align-items: center;
+        
+
+        &:hover {
+            cursor: pointer;
+            -webkit-transform: scale(0.5);
+            -ms-transform: scale(1.2);
+            transform: scale(1.1);
+          }
     }
 
     &__back--btn {
-        margin-right: 26px;
+        margin-right: 11px;
 
         @media (max-width: 576px) {
             margin-right: 28px;
@@ -206,10 +214,18 @@
     &__home {
         display: flex;
         align-items: center;
+
+        &:hover {
+            cursor: pointer;
+            -webkit-transform: scale(0.5);
+            -ms-transform: scale(1.2);
+            transform: scale(1.1);
+          }
+       
     }
 
     &__home--btn {
-        margin-right: 14px;
+        margin-right: 10px;
 
         @media (max-width: 576px) {
             margin-right: 0px;
