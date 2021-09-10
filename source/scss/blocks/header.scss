@@ -68,6 +68,7 @@
         }
     }
 
+
     &__price{
         margin-right: 18px;
 
@@ -133,6 +134,13 @@
     &__plus--coins {
         margin-right: 67px;
 
+        &:hover {
+            cursor: pointer;
+            -webkit-transform: scale(0.5);
+            -ms-transform: scale(1.2);
+            transform: scale(1.1);
+          }
+
         @media (max-width: 576px) {
             margin-right: 15px;
         }
@@ -182,6 +190,14 @@
     }
 
     &__plus--crystal {
+
+        &:hover {
+            cursor: pointer;
+            -webkit-transform: scale(0.5);
+            -ms-transform: scale(1.2);
+            transform: scale(1.1);
+          }
+
         @media (max-width: 576px) {
             margin-right: 33px;
         }
@@ -216,4 +232,3 @@
     }
     }
 }
-

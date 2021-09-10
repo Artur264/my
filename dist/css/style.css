@@ -152,6 +152,12 @@
 .header__plus--coins {
   margin-right: 67px;
 }
+.header__plus--coins:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+}
 @media (max-width: 576px) {
   .header__plus--coins {
     margin-right: 15px;
@@ -196,6 +202,12 @@
   .header__name--crystal {
     display: none;
   }
+}
+.header__plus--crystal:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
 }
 @media (max-width: 576px) {
   .header__plus--crystal {
@@ -315,6 +327,7 @@
   border-radius: 10px 10px 0px 0px;
   padding-top: 14px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 @media (max-width: 576px) {
   .navigation__item {
@@ -323,6 +336,13 @@
     padding-top: 6px;
     padding-bottom: 14px;
   }
+}
+.navigation .active {
+  cursor: pointer;
+  box-sizing: border-box;
+  border-bottom: 3px solid #F52CBF;
+  border-image: linear-gradient(90deg, #F52CBF 0%, #FF7C46 100%);
+  border-image-slice: 1;
 }
 .navigation__link {
   font-family: Leksa Sans;
@@ -500,6 +520,10 @@
 }
 .card__btn {
   padding-bottom: 15px;
+}
+.card__btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 @media (max-width: 576px) {
   .card__btn {

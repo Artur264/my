@@ -58,6 +58,12 @@
     &__btn {
         padding-bottom: 15px;
 
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+            }
+
         @media (max-width: 576px) {
             width: 98px;
             height: 27px;
