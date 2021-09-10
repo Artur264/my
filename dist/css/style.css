@@ -541,7 +541,9 @@
 }
 .card__btn:hover {
   cursor: pointer;
-  opacity: 0.5;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
 }
 @media (max-width: 576px) {
   .card__btn {
