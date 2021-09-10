@@ -305,7 +305,7 @@
   margin-bottom: 20px;
 }
 .item__title:hover {
-  color: #f5ad5b;
+  color: #ac4cd9;
 }
 @media (max-width: 576px) {
   .item__title {
