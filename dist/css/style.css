@@ -304,6 +304,9 @@
   justify-content: center;
   margin-bottom: 20px;
 }
+.item__title:hover {
+  color: #f5ad5b;
+}
 @media (max-width: 576px) {
   .item__title {
     display: none;
@@ -567,4 +570,7 @@
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 20px;
+}
+.card__title:hover {
+  color: #f5ad5b;
 }

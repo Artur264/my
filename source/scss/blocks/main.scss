@@ -32,6 +32,8 @@
 
 .item {
 
+    
+
     &__wrapper {
         padding-bottom: 30px;
         border-bottom: 1px solid #9794C6;
@@ -49,6 +51,10 @@
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
+
+        &:hover {
+            color: #f5ad5b;
+        }
 
         @media (max-width: 576px) {
             display: none;
