@@ -1,3 +1,19 @@
+.main__card {
+        background-color: #212031;
+        padding-top: 24px;
+        border-radius: 0px 0px 10px 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (max-width: 576px) {
+            border-radius: 10px;;
+         }
+    }
+    .card__wrapper {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #9794C6;
+    }
+
 .card {
     position: relative;
     // width: 217px;
@@ -90,10 +106,26 @@
     letter-spacing: 0em;
     text-align: center;
     color: $white;
+
+    &--crystal{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    
+        &:hover {
+             color: #ac4cd9;
+    }
+    
+         @media (max-width: 576px) {
+                display: none;
+        }
+    }
+
+    &--gold{
     margin-bottom: 20px;
 
     &:hover {
         color: #f5ad5b;
     }
-
+    }
 }
